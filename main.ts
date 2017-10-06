@@ -1,4 +1,5 @@
-const amount:number = 3000,
+/**@author Tomasz Surowiec*/
+const amount:number = 6000,
   out:Element = document.querySelector('div.photo'),
   input:Element = document.querySelector('input.input-link'),
   inNum:Element = document.querySelector('input.input-num')

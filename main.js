@@ -1,4 +1,5 @@
-const amount = 3000, out = document.querySelector('div.photo'), input = document.querySelector('input.input-link'), inNum = document.querySelector('input.input-num');
+/**@author Tomasz Surowiec*/
+const amount = 6000, out = document.querySelector('div.photo'), input = document.querySelector('input.input-link'), inNum = document.querySelector('input.input-num');
 let link = './cat.jpg';
 let size = 2;
 let styles = [
