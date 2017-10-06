@@ -1,0 +1,36 @@
+:root {
+  --color: #fff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-width: 100vw;
+  min-height: 100vh;
+  background-color: #1b1b1b;
+}
+
+.glass {
+  width: 10vw;
+  max-height: 10vw;
+  height: 10vh;
+  background-color: var(--color);
+  mix-blend-mode: color;
+}
+
+.photo {
+  width: 100vw;
+  height: 100vh;
+  background: url("./cat.jpg") center fixed no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-flow: row wrap;
+  list-style: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
